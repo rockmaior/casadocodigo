@@ -30,6 +30,7 @@ public class ProdutosController {
 	public ModelAndView form() {
 		ModelAndView modelAndView = new ModelAndView("produtos/form");
 		modelAndView.addObject("tipos", TipoPreco.values());
+		
 		return modelAndView;
 	}
 
