@@ -1,0 +1,940 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_8O7jYADhEemgNK0S_iJEdg">
+  <modelElement href="casadocodigo.uml#_8s1nYQDhEemgNK0S_iJEdg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="__3dwUADhEemgNK0S_iJEdg" sourceAnchor="110.0,53.0" targetAnchor="0.0,36.0" target="__3hasADhEemgNK0S_iJEdg" source="_D0zvoADiEemgNK0S_iJEdg">
+    <modelElement href="casadocodigo.uml#_87hjoADhEemgNK0S_iJEdg"/>
+    <visualProperties xmi:id="_D0zvpgDiEemgNK0S_iJEdg" position="86.0,137.0"/>
+    <nameVisual xmi:id="__3dwUQDhEemgNK0S_iJEdg" text="">
+      <visualProperties xmi:id="_D3KgEADiEemgNK0S_iJEdg" position="135.0,-9.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="__3dwUgDhEemgNK0S_iJEdg" aggregationKind="NONE" name="tipo" navigable="true">
+      <modelElement href="casadocodigo.uml#_87E3sgDhEemgNK0S_iJEdg"/>
+      <visualProperties xmi:id="_D3J5AADiEemgNK0S_iJEdg" position="5.0,-49.0"/>
+      <visibility xmi:id="__3dwUwDhEemgNK0S_iJEdg" label="+"/>
+      <cardinality xmi:id="__3dwVADhEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="__3dwVQDhEemgNK0S_iJEdg" aggregationKind="NONE" name="">
+      <modelElement href="casadocodigo.uml#_87hjoQDhEemgNK0S_iJEdg"/>
+      <visualProperties xmi:id="_D3KgEQDiEemgNK0S_iJEdg" position="-20.0,3.0"/>
+      <visibility xmi:id="__3dwVgDhEemgNK0S_iJEdg" label="+"/>
+      <cardinality xmi:id="__3dwVwDhEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="__3sZ0ADhEemgNK0S_iJEdg" sourceAnchor="123.0,215.0" targetAnchor="76.0,0.0" target="__3hasADhEemgNK0S_iJEdg" source="__351MADhEemgNK0S_iJEdg">
+    <modelElement href="casadocodigo.uml#_88LD4QDhEemgNK0S_iJEdg"/>
+    <visualProperties xmi:id="_CBCE4QDiEemgNK0S_iJEdg" position="567.0,138.0"/>
+    <stereotypes xmi:id="__32K0ADhEemgNK0S_iJEdg" name="Reference">
+      <modelElement href="casadocodigo.uml#_88RxkADhEemgNK0S_iJEdg"/>
+    </stereotypes>
+    <nameVisual xmi:id="__31jwADhEemgNK0S_iJEdg" text="">
+      <visualProperties xmi:id="_AAg-oADiEemgNK0S_iJEdg" position="-21.0,-5.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="__31jwQDhEemgNK0S_iJEdg" aggregationKind="NONE" name="">
+      <modelElement href="casadocodigo.uml#_88LD4gDhEemgNK0S_iJEdg"/>
+      <visualProperties xmi:id="_AAgXkADiEemgNK0S_iJEdg" position="5.0,5.0"/>
+      <visibility xmi:id="__34nEQDhEemgNK0S_iJEdg" label="+"/>
+      <cardinality xmi:id="__34nEADhEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="__31jwgDhEemgNK0S_iJEdg" aggregationKind="NONE" name="precos" navigable="true">
+      <modelElement href="casadocodigo.uml#_87H7AQDhEemgNK0S_iJEdg"/>
+      <visualProperties xmi:id="_AAg-oQDiEemgNK0S_iJEdg" position="-51.0,-50.0"/>
+      <visibility xmi:id="__34nEwDhEemgNK0S_iJEdg" label="+"/>
+      <cardinality xmi:id="__34nEgDhEemgNK0S_iJEdg" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_CA9zcADiEemgNK0S_iJEdg" sourceAnchor="0.0,108.0" targetAnchor="443.0,46.0" target="_CBBd1ADiEemgNK0S_iJEdg" source="__351MADhEemgNK0S_iJEdg">
+    <modelElement href="casadocodigo.uml#_87fucwDhEemgNK0S_iJEdg"/>
+    <visualProperties xmi:id="_CBCE4ADiEemgNK0S_iJEdg" position="566.0,489.0"/>
+    <nameVisual xmi:id="_CA-agADiEemgNK0S_iJEdg" text="">
+      <visualProperties xmi:id="_CDhYMADiEemgNK0S_iJEdg" position="-29.0,-9.000000000000114"/>
+    </nameVisual>
+    <sourceRole xmi:id="_CA-agQDiEemgNK0S_iJEdg" aggregationKind="NONE" name="produto" navigable="true">
+      <modelElement href="casadocodigo.uml#_87DpkADhEemgNK0S_iJEdg"/>
+      <visualProperties xmi:id="_CDgxIADiEemgNK0S_iJEdg" position="-63.0,3.0"/>
+      <visibility xmi:id="_CBA2wQDiEemgNK0S_iJEdg" label="+"/>
+      <cardinality xmi:id="_CBA2wADiEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_CA-aggDiEemgNK0S_iJEdg" aggregationKind="NONE" name="">
+      <modelElement href="casadocodigo.uml#_87gVgADhEemgNK0S_iJEdg"/>
+      <visualProperties xmi:id="_CDhYMQDiEemgNK0S_iJEdg" position="5.0,-49.000000000000114"/>
+      <visibility xmi:id="_CBA2wwDiEemgNK0S_iJEdg" label="+"/>
+      <cardinality xmi:id="_CBA2wgDiEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_CA-agwDiEemgNK0S_iJEdg" sourceAnchor="55.0,0.0" targetAnchor="221.0,92.0" target="_CBBd1ADiEemgNK0S_iJEdg" source="_D0zvoADiEemgNK0S_iJEdg">
+    <modelElement href="casadocodigo.uml#_87g8kADhEemgNK0S_iJEdg"/>
+    <visualProperties xmi:id="_FY7NwADiEemgNK0S_iJEdg" position="566.0,489.0"/>
+    <nameVisual xmi:id="_CBA2xADiEemgNK0S_iJEdg" text="">
+      <visualProperties xmi:id="_D3Iq4QDiEemgNK0S_iJEdg" position="-8.0,8.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_CBA2xQDiEemgNK0S_iJEdg" aggregationKind="NONE" name="tipoPreco" navigable="true">
+      <modelElement href="casadocodigo.uml#_87EQoADhEemgNK0S_iJEdg"/>
+      <visualProperties xmi:id="_D3Iq4ADiEemgNK0S_iJEdg" position="-72.0,-50.0"/>
+      <visibility xmi:id="_CBBd0QDiEemgNK0S_iJEdg" label="+"/>
+      <cardinality xmi:id="_CBBd0ADiEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_CBA2xgDiEemgNK0S_iJEdg" aggregationKind="NONE" name="">
+      <modelElement href="casadocodigo.uml#_87g8kQDhEemgNK0S_iJEdg"/>
+      <visualProperties xmi:id="_D3Iq4gDiEemgNK0S_iJEdg" position="5.0,5.0"/>
+      <visibility xmi:id="_CBBd0wDiEemgNK0S_iJEdg" label="+"/>
+      <cardinality xmi:id="_CBBd0gDiEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_bPQn4ADiEemgNK0S_iJEdg" sourceAnchor="216.0,0.0" targetAnchor="153.0,135.0" target="_amWNwADiEemgNK0S_iJEdg" source="_bPUSQADiEemgNK0S_iJEdg">
+    <modelElement href="casadocodigo.uml#_87tJ0ADhEemgNK0S_iJEdg"/>
+    <visualProperties xmi:id="_bPUSZwDiEemgNK0S_iJEdg" position="226.0,423.0"/>
+    <stereotypes xmi:id="_bPRO8wDiEemgNK0S_iJEdg" name="Reference">
+      <modelElement href="casadocodigo.uml#_87ypYADhEemgNK0S_iJEdg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_bPRO8ADiEemgNK0S_iJEdg" text="">
+      <visualProperties xmi:id="_bU0dUQDiEemgNK0S_iJEdg" position="-21.0,-7.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_bPRO8QDiEemgNK0S_iJEdg" aggregationKind="NONE" name="">
+      <modelElement href="casadocodigo.uml#_87tJ0QDhEemgNK0S_iJEdg"/>
+      <visualProperties xmi:id="_bU0dUADiEemgNK0S_iJEdg" position="-21.0,-50.0"/>
+      <visibility xmi:id="_bPSdEQDiEemgNK0S_iJEdg" label="+"/>
+      <cardinality xmi:id="_bPSdEADiEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_bPRO8gDiEemgNK0S_iJEdg" aggregationKind="NONE" name="carrinho" navigable="true">
+      <modelElement href="casadocodigo.uml#_869i8ADhEemgNK0S_iJEdg"/>
+      <visualProperties xmi:id="_bU0dUgDiEemgNK0S_iJEdg" position="9.0,5.0"/>
+      <visibility xmi:id="_bPSdEwDiEemgNK0S_iJEdg" label="-"/>
+      <cardinality xmi:id="_bPSdEgDiEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_bPTrMADiEemgNK0S_iJEdg" sourceAnchor="431.0,45.0" targetAnchor="0.0,68.0" target="_guG2OQDiEemgNK0S_iJEdg" source="_bPUSQADiEemgNK0S_iJEdg">
+    <modelElement href="casadocodigo.uml#_87mcIADhEemgNK0S_iJEdg"/>
+    <visualProperties xmi:id="_guHdQADiEemgNK0S_iJEdg" position="226.0,423.0"/>
+    <stereotypes xmi:id="_bPTrMQDiEemgNK0S_iJEdg" name="Reference">
+      <modelElement href="casadocodigo.uml#_87siwADhEemgNK0S_iJEdg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_bPTrMgDiEemgNK0S_iJEdg" text="">
+      <visualProperties xmi:id="_gzS4MADiEemgNK0S_iJEdg" position="-62.0,-9.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_bPTrMwDiEemgNK0S_iJEdg" aggregationKind="NONE" name="">
+      <modelElement href="casadocodigo.uml#_87mcIQDhEemgNK0S_iJEdg"/>
+      <visualProperties xmi:id="_gzRqEADiEemgNK0S_iJEdg" position="5.0,-49.0"/>
+      <visibility xmi:id="_bPTrNADiEemgNK0S_iJEdg" label="+"/>
+      <cardinality xmi:id="_bPTrNQDiEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_bPTrNgDiEemgNK0S_iJEdg" aggregationKind="NONE" name="produtoDAO" navigable="true">
+      <modelElement href="casadocodigo.uml#_868U0ADhEemgNK0S_iJEdg"/>
+      <visualProperties xmi:id="_gzS4MQDiEemgNK0S_iJEdg" position="-88.0,3.0"/>
+      <visibility xmi:id="_bPTrNwDiEemgNK0S_iJEdg" label="-"/>
+      <cardinality xmi:id="_bPTrOADiEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_guG2MADiEemgNK0S_iJEdg" sourceAnchor="207.0,55.0" targetAnchor="0.0,31.0" target="_hNtjUADiEemgNK0S_iJEdg" source="_guG2OQDiEemgNK0S_iJEdg">
+    <modelElement href="casadocodigo.uml#_87-2oQDhEemgNK0S_iJEdg"/>
+    <visualProperties xmi:id="_hNtjVQDiEemgNK0S_iJEdg" position="1149.0,409.0"/>
+    <stereotypes xmi:id="_guG2MQDiEemgNK0S_iJEdg" name="Reference">
+      <modelElement href="casadocodigo.uml#_88EWMADhEemgNK0S_iJEdg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_guG2MgDiEemgNK0S_iJEdg" text="">
+      <visualProperties xmi:id="_hVMEUADiEemgNK0S_iJEdg" position="-49.0,-9.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_guG2MwDiEemgNK0S_iJEdg" aggregationKind="NONE" name="">
+      <modelElement href="casadocodigo.uml#_87-2ogDhEemgNK0S_iJEdg"/>
+      <visualProperties xmi:id="_hVLdQADiEemgNK0S_iJEdg" position="5.0,-49.0"/>
+      <visibility xmi:id="_guG2NADiEemgNK0S_iJEdg" label="+"/>
+      <cardinality xmi:id="_guG2NQDiEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_guG2NgDiEemgNK0S_iJEdg" aggregationKind="NONE" name="manager" navigable="true">
+      <modelElement href="casadocodigo.uml#_87AmQADhEemgNK0S_iJEdg"/>
+      <visualProperties xmi:id="_hVMrYADiEemgNK0S_iJEdg" position="-67.0,3.0"/>
+      <visibility xmi:id="_guG2NwDiEemgNK0S_iJEdg" label="-"/>
+      <cardinality xmi:id="_guG2OADiEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_hNoq0ADiEemgNK0S_iJEdg" sourceAnchor="385.0,0.0" targetAnchor="106.0,135.0" target="_guG2OQDiEemgNK0S_iJEdg" source="_hNs8QADiEemgNK0S_iJEdg">
+    <modelElement href="casadocodigo.uml#_87zQcADhEemgNK0S_iJEdg"/>
+    <visualProperties xmi:id="_hNtjVADiEemgNK0S_iJEdg" position="967.0,747.0"/>
+    <stereotypes xmi:id="_hNpR4wDiEemgNK0S_iJEdg" name="Reference">
+      <modelElement href="casadocodigo.uml#_874wAADhEemgNK0S_iJEdg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_hNpR4ADiEemgNK0S_iJEdg" text="">
+      <visualProperties xmi:id="_hVK2MADiEemgNK0S_iJEdg" position="-21.0,-5.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_hNpR4QDiEemgNK0S_iJEdg" aggregationKind="NONE" name="">
+      <modelElement href="casadocodigo.uml#_87zQcQDhEemgNK0S_iJEdg"/>
+      <visualProperties xmi:id="_hVKPIADiEemgNK0S_iJEdg" position="-21.0,-50.0"/>
+      <visibility xmi:id="_hNrHEQDiEemgNK0S_iJEdg" label="+"/>
+      <cardinality xmi:id="_hNrHEADiEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_hNpR4gDiEemgNK0S_iJEdg" aggregationKind="NONE" name="produtoDao" navigable="true">
+      <modelElement href="casadocodigo.uml#_86-KAADhEemgNK0S_iJEdg"/>
+      <visualProperties xmi:id="_hVK2MQDiEemgNK0S_iJEdg" position="12.0,5.0"/>
+      <visibility xmi:id="_hNrHEwDiEemgNK0S_iJEdg" label="-"/>
+      <cardinality xmi:id="_hNrHEgDiEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_hNsVMADiEemgNK0S_iJEdg" sourceAnchor="0.0,74.0" targetAnchor="354.0,49.0" target="_j6LJmQDiEemgNK0S_iJEdg" source="_hNs8QADiEemgNK0S_iJEdg">
+    <modelElement href="casadocodigo.uml#_874wAQDhEemgNK0S_iJEdg"/>
+    <visualProperties xmi:id="_j6LwoADiEemgNK0S_iJEdg" position="967.0,747.0"/>
+    <stereotypes xmi:id="_hNsVMQDiEemgNK0S_iJEdg" name="Reference">
+      <modelElement href="casadocodigo.uml#_87-2oADhEemgNK0S_iJEdg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_hNsVMgDiEemgNK0S_iJEdg" text="">
+      <visualProperties xmi:id="_kBB_gQDiEemgNK0S_iJEdg" position="7.0,-9.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_hNsVMwDiEemgNK0S_iJEdg" aggregationKind="NONE" name="">
+      <modelElement href="casadocodigo.uml#_874wAgDhEemgNK0S_iJEdg"/>
+      <visualProperties xmi:id="_kBB_gADiEemgNK0S_iJEdg" position="-20.0,3.0"/>
+      <visibility xmi:id="_hNsVNADiEemgNK0S_iJEdg" label="+"/>
+      <cardinality xmi:id="_hNsVNQDiEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_hNsVNgDiEemgNK0S_iJEdg" aggregationKind="NONE" name="fileSaver" navigable="true">
+      <modelElement href="casadocodigo.uml#_86-xEgDhEemgNK0S_iJEdg"/>
+      <visualProperties xmi:id="_kBCmkADiEemgNK0S_iJEdg" position="5.0,-48.999999999999886"/>
+      <visibility xmi:id="_hNsVNwDiEemgNK0S_iJEdg" label="-"/>
+      <cardinality xmi:id="_hNsVOADiEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_j6J7cQDiEemgNK0S_iJEdg" targetItem="_j6LJowDiEemgNK0S_iJEdg" sourceItem="_j6J7cADiEemgNK0S_iJEdg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_j6LJkADiEemgNK0S_iJEdg" source="_j6LJmQDiEemgNK0S_iJEdg">
+    <modelElement href="casadocodigo.uml#_88E9QADhEemgNK0S_iJEdg"/>
+    <stereotypes xmi:id="_j6LJkQDiEemgNK0S_iJEdg" name="Reference">
+      <modelElement href="casadocodigo.uml#_88LD4ADhEemgNK0S_iJEdg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_j6LJkgDiEemgNK0S_iJEdg" text=""/>
+    <sourceRole xmi:id="_j6LJkwDiEemgNK0S_iJEdg" aggregationKind="NONE" name="">
+      <modelElement href="casadocodigo.uml#_88E9QQDhEemgNK0S_iJEdg"/>
+      <visibility xmi:id="_j6LJlADiEemgNK0S_iJEdg" label="+"/>
+      <cardinality xmi:id="_j6LJlQDiEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_j6LJlgDiEemgNK0S_iJEdg" aggregationKind="NONE" name="request" navigable="true">
+      <modelElement href="casadocodigo.uml#_87BNUgDhEemgNK0S_iJEdg"/>
+      <visibility xmi:id="_j6LJlwDiEemgNK0S_iJEdg" label="-"/>
+      <cardinality xmi:id="_j6LJmADiEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="__3hasADhEemgNK0S_iJEdg" name="Preco" associationsIn="__3dwUADhEemgNK0S_iJEdg __3sZ0ADhEemgNK0S_iJEdg">
+    <modelElement href="casadocodigo.uml#_8wCsYADhEemgNK0S_iJEdg"/>
+    <visualProperties xmi:id="__3hasQDhEemgNK0S_iJEdg" position="709.0,1284.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="__3hasgDhEemgNK0S_iJEdg" name="JPA1StyledElement">
+      <modelElement href="casadocodigo.uml#_8wFIoADhEemgNK0S_iJEdg"/>
+    </stereotypes>
+    <stereotypes xmi:id="__3haswDhEemgNK0S_iJEdg" name="PersistentPart">
+      <modelElement href="casadocodigo.uml#_8wL2UADhEemgNK0S_iJEdg"/>
+    </stereotypes>
+    <visibility xmi:id="__3hatADhEemgNK0S_iJEdg" label="+"/>
+    <attributes xmi:id="__3hatQDhEemgNK0S_iJEdg" name="valor">
+      <modelElement href="casadocodigo.uml#_87E3sADhEemgNK0S_iJEdg"/>
+      <stereotypes xmi:id="__3hatgDhEemgNK0S_iJEdg" name="StyledElement">
+        <modelElement href="casadocodigo.uml#_87E3sQDhEemgNK0S_iJEdg"/>
+      </stereotypes>
+      <visibility xmi:id="__3hatwDhEemgNK0S_iJEdg" label="+"/>
+      <cardinality xmi:id="__3hauADhEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+      <type xmi:id="__3hauQDhEemgNK0S_iJEdg" name="BigDecimal">
+        <modelElement href="casadocodigo.uml#_849X0ADhEemgNK0S_iJEdg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="__3haugDhEemgNK0S_iJEdg" name="tipo">
+      <modelElement href="casadocodigo.uml#_87E3sgDhEemgNK0S_iJEdg"/>
+      <stereotypes xmi:id="__3hauwDhEemgNK0S_iJEdg" name="StyledElement">
+        <modelElement href="casadocodigo.uml#_87E3swDhEemgNK0S_iJEdg"/>
+      </stereotypes>
+      <visibility xmi:id="__3havADhEemgNK0S_iJEdg" label="+"/>
+      <cardinality xmi:id="__3havQDhEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+      <type xmi:id="__3havgDhEemgNK0S_iJEdg" name="TipoPreco">
+        <modelElement href="casadocodigo.uml#_8wXcgADhEemgNK0S_iJEdg"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:EnumerationVisual" xmi:id="_D0zvoADiEemgNK0S_iJEdg" name="TipoPreco" associationsOut="_CA-agwDiEemgNK0S_iJEdg __3dwUADhEemgNK0S_iJEdg">
+    <modelElement href="casadocodigo.uml#_8wXcgADhEemgNK0S_iJEdg"/>
+    <visualProperties xmi:id="_D0zvoQDiEemgNK0S_iJEdg" position="184.0,1267.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_D0zvogDiEemgNK0S_iJEdg" label="+"/>
+    <literals xmi:id="_D0zvowDiEemgNK0S_iJEdg" name="EBOOK">
+      <modelElement href="casadocodigo.uml#_8wYDkADhEemgNK0S_iJEdg"/>
+    </literals>
+    <literals xmi:id="_D0zvpADiEemgNK0S_iJEdg" name="IMPRESSO">
+      <modelElement href="casadocodigo.uml#_8wYDkQDhEemgNK0S_iJEdg"/>
+    </literals>
+    <literals xmi:id="_D0zvpQDiEemgNK0S_iJEdg" name="COMBO">
+      <modelElement href="casadocodigo.uml#_8wYDkgDhEemgNK0S_iJEdg"/>
+    </literals>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_j6J7cADiEemgNK0S_iJEdg" sourceConnectionVisual="_j6J7cQDiEemgNK0S_iJEdg" text="salvar o arquivo em uma pasta recebida por parâmetro&#xA;&#x9; * &#xA;&#x9; * @param baseFolder&#xA;&#x9; * @param file&#xA;&#x9; * @return" item="_j6LJowDiEemgNK0S_iJEdg">
+    <modelElement href="casadocodigo.uml#_87fucQDhEemgNK0S_iJEdg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_hNtjUADiEemgNK0S_iJEdg" name="EntityManager" associationsIn="_guG2MADiEemgNK0S_iJEdg">
+    <modelElement href="casadocodigo.uml#_84Cx0ADhEemgNK0S_iJEdg"/>
+    <visualProperties xmi:id="_hNtjUQDiEemgNK0S_iJEdg" position="1102.0,379.0" size="-1.0,-1.0" visible="false"/>
+    <stereotypes xmi:id="_hNtjUgDiEemgNK0S_iJEdg" name="Reference">
+      <modelElement href="casadocodigo.uml#_84IRYADhEemgNK0S_iJEdg"/>
+    </stereotypes>
+    <visibility xmi:id="_hNtjUwDiEemgNK0S_iJEdg" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_amWNwADiEemgNK0S_iJEdg" name="CarrinhoCompras" associationsIn="_bPQn4ADiEemgNK0S_iJEdg">
+    <modelElement href="casadocodigo.uml#_8v7-sADhEemgNK0S_iJEdg"/>
+    <visualProperties xmi:id="_amWNwQDiEemgNK0S_iJEdg" position="242.0,31.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_amWNwgDiEemgNK0S_iJEdg" name="LegacyStyledElement">
+      <modelElement href="casadocodigo.uml#_8v7-sQDhEemgNK0S_iJEdg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_amWNwwDiEemgNK0S_iJEdg" name="Annotations">
+      <modelElement href="casadocodigo.uml#_8v9M0QDhEemgNK0S_iJEdg"/>
+    </stereotypes>
+    <visibility xmi:id="_amWNxADiEemgNK0S_iJEdg" label="+"/>
+    <attributes xmi:id="_amWNxQDiEemgNK0S_iJEdg" defaultValue="new LinkedHashMap&lt;>()" name="itens">
+      <modelElement href="casadocodigo.uml#_87B0YgDhEemgNK0S_iJEdg"/>
+      <visibility xmi:id="_amWNxgDiEemgNK0S_iJEdg" label="-"/>
+      <cardinality xmi:id="_amWNxwDiEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+      <type xmi:id="_amWNyADiEemgNK0S_iJEdg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_amWNyQDiEemgNK0S_iJEdg" name="getQuantidade">
+      <modelElement href="casadocodigo.uml#_8v8lwADhEemgNK0S_iJEdg"/>
+      <stereotypes xmi:id="_amWNygDiEemgNK0S_iJEdg" name="StyledElement">
+        <modelElement href="casadocodigo.uml#_8v9M0ADhEemgNK0S_iJEdg"/>
+      </stereotypes>
+      <visibility xmi:id="_amWNywDiEemgNK0S_iJEdg" label="+"/>
+      <cardinality xmi:id="_amWNzADiEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_amWNzQDiEemgNK0S_iJEdg">
+        <modelElement href="casadocodigo.uml#_8v8lwQDhEemgNK0S_iJEdg"/>
+        <type xmi:id="_amWNzgDiEemgNK0S_iJEdg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_amWNzwDiEemgNK0S_iJEdg" name="add">
+      <modelElement href="casadocodigo.uml#_845tcQDhEemgNK0S_iJEdg"/>
+      <stereotypes xmi:id="_amWN0ADiEemgNK0S_iJEdg" name="StyledElement">
+        <modelElement href="casadocodigo.uml#_846UgADhEemgNK0S_iJEdg"/>
+      </stereotypes>
+      <visibility xmi:id="_amWN0QDiEemgNK0S_iJEdg" label="+"/>
+      <cardinality xmi:id="_amWN0gDiEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_amWN0wDiEemgNK0S_iJEdg" name="item">
+        <modelElement href="casadocodigo.uml#_845tcgDhEemgNK0S_iJEdg"/>
+        <cardinality xmi:id="_amWN1ADiEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+        <type xmi:id="_amWN1QDiEemgNK0S_iJEdg" name="CarrinhoItem">
+          <modelElement href="casadocodigo.uml#_8v-a8ADhEemgNK0S_iJEdg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_amWN1gDiEemgNK0S_iJEdg" name="getQuantidade">
+      <modelElement href="casadocodigo.uml#_846UgQDhEemgNK0S_iJEdg"/>
+      <stereotypes xmi:id="_amWN1wDiEemgNK0S_iJEdg" name="StyledElement">
+        <modelElement href="casadocodigo.uml#_8467kQDhEemgNK0S_iJEdg"/>
+      </stereotypes>
+      <visibility xmi:id="_amWN2ADiEemgNK0S_iJEdg" label="+"/>
+      <cardinality xmi:id="_amWN2QDiEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_amWN2gDiEemgNK0S_iJEdg">
+        <modelElement href="casadocodigo.uml#_8467kADhEemgNK0S_iJEdg"/>
+        <type xmi:id="_amWN2wDiEemgNK0S_iJEdg" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_amWN3ADiEemgNK0S_iJEdg" name="item">
+        <modelElement href="casadocodigo.uml#_846UggDhEemgNK0S_iJEdg"/>
+        <cardinality xmi:id="_amWN3QDiEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+        <type xmi:id="_amWN3gDiEemgNK0S_iJEdg" name="CarrinhoItem">
+          <modelElement href="casadocodigo.uml#_8v-a8ADhEemgNK0S_iJEdg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bPUSQADiEemgNK0S_iJEdg" name="CarrinhoComprasController" associationsOut="_bPQn4ADiEemgNK0S_iJEdg _bPTrMADiEemgNK0S_iJEdg">
+    <modelElement href="casadocodigo.uml#_8vkyUADhEemgNK0S_iJEdg"/>
+    <visualProperties xmi:id="_bPUSQQDiEemgNK0S_iJEdg" position="179.0,365.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_bPUSQgDiEemgNK0S_iJEdg" name="LegacyStyledElement">
+      <modelElement href="casadocodigo.uml#_8vlZYADhEemgNK0S_iJEdg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_bPUSQwDiEemgNK0S_iJEdg" name="Annotations">
+      <modelElement href="casadocodigo.uml#_8vmngADhEemgNK0S_iJEdg"/>
+    </stereotypes>
+    <visibility xmi:id="_bPUSRADiEemgNK0S_iJEdg" label="+"/>
+    <attributes xmi:id="_bPUSRQDiEemgNK0S_iJEdg" name="produtoDAO">
+      <modelElement href="casadocodigo.uml#_868U0ADhEemgNK0S_iJEdg"/>
+      <stereotypes xmi:id="_bPUSRgDiEemgNK0S_iJEdg" name="Annotations">
+        <modelElement href="casadocodigo.uml#_86874ADhEemgNK0S_iJEdg"/>
+      </stereotypes>
+      <visibility xmi:id="_bPUSRwDiEemgNK0S_iJEdg" label="-"/>
+      <cardinality xmi:id="_bPUSSADiEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+      <type xmi:id="_bPUSSQDiEemgNK0S_iJEdg" name="ProdutoDAO">
+        <modelElement href="casadocodigo.uml#_8v1RAADhEemgNK0S_iJEdg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bPUSSgDiEemgNK0S_iJEdg" name="carrinho">
+      <modelElement href="casadocodigo.uml#_869i8ADhEemgNK0S_iJEdg"/>
+      <stereotypes xmi:id="_bPUSSwDiEemgNK0S_iJEdg" name="Annotations">
+        <modelElement href="casadocodigo.uml#_869i8QDhEemgNK0S_iJEdg"/>
+      </stereotypes>
+      <visibility xmi:id="_bPUSTADiEemgNK0S_iJEdg" label="-"/>
+      <cardinality xmi:id="_bPUSTQDiEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+      <type xmi:id="_bPUSTgDiEemgNK0S_iJEdg" name="CarrinhoCompras">
+        <modelElement href="casadocodigo.uml#_8v7-sADhEemgNK0S_iJEdg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_bPUSTwDiEemgNK0S_iJEdg" name="add">
+      <modelElement href="casadocodigo.uml#_824UMADhEemgNK0S_iJEdg"/>
+      <stereotypes xmi:id="_bPUSUADiEemgNK0S_iJEdg" name="Annotations">
+        <modelElement href="casadocodigo.uml#_8247QADhEemgNK0S_iJEdg"/>
+      </stereotypes>
+      <visibility xmi:id="_bPUSUQDiEemgNK0S_iJEdg" label="+"/>
+      <cardinality xmi:id="_bPUSUgDiEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bPUSUwDiEemgNK0S_iJEdg">
+        <modelElement href="casadocodigo.uml#_86aJUADhEemgNK0S_iJEdg"/>
+        <type xmi:id="_bPUSVADiEemgNK0S_iJEdg" name="ModelAndView">
+          <modelElement href="casadocodigo.uml#_82xmgQDhEemgNK0S_iJEdg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bPUSVQDiEemgNK0S_iJEdg" name="produtoId">
+        <modelElement href="casadocodigo.uml#_824UMQDhEemgNK0S_iJEdg"/>
+        <cardinality xmi:id="_bPUSVgDiEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+        <type xmi:id="_bPUSVwDiEemgNK0S_iJEdg" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_bPUSWADiEemgNK0S_iJEdg" name="tipoPreco">
+        <modelElement href="casadocodigo.uml#_824UMgDhEemgNK0S_iJEdg"/>
+        <cardinality xmi:id="_bPUSWQDiEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+        <type xmi:id="_bPUSWgDiEemgNK0S_iJEdg" name="TipoPreco">
+          <modelElement href="casadocodigo.uml#_8wXcgADhEemgNK0S_iJEdg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bPUSWwDiEemgNK0S_iJEdg" name="criaItem">
+      <modelElement href="casadocodigo.uml#_825iUgDhEemgNK0S_iJEdg"/>
+      <stereotypes xmi:id="_bPUSXADiEemgNK0S_iJEdg" name="StyledElement">
+        <modelElement href="casadocodigo.uml#_826JYADhEemgNK0S_iJEdg"/>
+      </stereotypes>
+      <visibility xmi:id="_bPUSXQDiEemgNK0S_iJEdg" label="+"/>
+      <cardinality xmi:id="_bPUSXgDiEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bPUSXwDiEemgNK0S_iJEdg">
+        <modelElement href="casadocodigo.uml#_825iVQDhEemgNK0S_iJEdg"/>
+        <type xmi:id="_bPUSYADiEemgNK0S_iJEdg" name="CarrinhoItem">
+          <modelElement href="casadocodigo.uml#_8v-a8ADhEemgNK0S_iJEdg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bPUSYQDiEemgNK0S_iJEdg" name="produtoId">
+        <modelElement href="casadocodigo.uml#_825iUwDhEemgNK0S_iJEdg"/>
+        <cardinality xmi:id="_bPUSYgDiEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+        <type xmi:id="_bPUSYwDiEemgNK0S_iJEdg" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_bPUSZADiEemgNK0S_iJEdg" name="tipoPreco">
+        <modelElement href="casadocodigo.uml#_825iVADhEemgNK0S_iJEdg"/>
+        <cardinality xmi:id="_bPUSZQDiEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+        <type xmi:id="_bPUSZgDiEemgNK0S_iJEdg" name="TipoPreco">
+          <modelElement href="casadocodigo.uml#_8wXcgADhEemgNK0S_iJEdg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_guG2OQDiEemgNK0S_iJEdg" name="ProdutoDAO" associationsIn="_bPTrMADiEemgNK0S_iJEdg _hNoq0ADiEemgNK0S_iJEdg" associationsOut="_guG2MADiEemgNK0S_iJEdg">
+    <modelElement href="casadocodigo.uml#_8v1RAADhEemgNK0S_iJEdg"/>
+    <visualProperties xmi:id="_guG2OgDiEemgNK0S_iJEdg" position="861.0,342.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_guG2OwDiEemgNK0S_iJEdg" name="LegacyStyledElement">
+      <modelElement href="casadocodigo.uml#_8v14EADhEemgNK0S_iJEdg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_guG2PADiEemgNK0S_iJEdg" name="Annotations">
+      <modelElement href="casadocodigo.uml#_8v3tQADhEemgNK0S_iJEdg"/>
+    </stereotypes>
+    <visibility xmi:id="_guG2PQDiEemgNK0S_iJEdg" label="+"/>
+    <attributes xmi:id="_guG2PgDiEemgNK0S_iJEdg" name="manager">
+      <modelElement href="casadocodigo.uml#_87AmQADhEemgNK0S_iJEdg"/>
+      <stereotypes xmi:id="_guG2PwDiEemgNK0S_iJEdg" name="Annotations">
+        <modelElement href="casadocodigo.uml#_87BNUADhEemgNK0S_iJEdg"/>
+      </stereotypes>
+      <visibility xmi:id="_guG2QADiEemgNK0S_iJEdg" label="-"/>
+      <cardinality xmi:id="_guG2QQDiEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+      <type xmi:id="_guG2QgDiEemgNK0S_iJEdg" name="EntityManager">
+        <modelElement href="casadocodigo.uml#_84Cx0ADhEemgNK0S_iJEdg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_guG2QwDiEemgNK0S_iJEdg" name="listar">
+      <modelElement href="casadocodigo.uml#_8v14EQDhEemgNK0S_iJEdg"/>
+      <stereotypes xmi:id="_guG2RADiEemgNK0S_iJEdg" name="StyledElement">
+        <modelElement href="casadocodigo.uml#_8v2fIgDhEemgNK0S_iJEdg"/>
+      </stereotypes>
+      <visibility xmi:id="_guG2RQDiEemgNK0S_iJEdg" label="+"/>
+      <cardinality xmi:id="_guG2RgDiEemgNK0S_iJEdg" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_guG2RwDiEemgNK0S_iJEdg">
+        <modelElement href="casadocodigo.uml#_8v2fIADhEemgNK0S_iJEdg"/>
+        <type xmi:id="_guG2SADiEemgNK0S_iJEdg" name="Produto">
+          <modelElement href="casadocodigo.uml#_8wNEcADhEemgNK0S_iJEdg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_guG2SQDiEemgNK0S_iJEdg" name="find">
+      <modelElement href="casadocodigo.uml#_8v2fIwDhEemgNK0S_iJEdg"/>
+      <stereotypes xmi:id="_guG2SgDiEemgNK0S_iJEdg" name="StyledElement">
+        <modelElement href="casadocodigo.uml#_8v3GMADhEemgNK0S_iJEdg"/>
+      </stereotypes>
+      <visibility xmi:id="_guG2SwDiEemgNK0S_iJEdg" label="+"/>
+      <cardinality xmi:id="_guG2TADiEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_guG2TQDiEemgNK0S_iJEdg">
+        <modelElement href="casadocodigo.uml#_84alQQDhEemgNK0S_iJEdg"/>
+        <type xmi:id="_guG2TgDiEemgNK0S_iJEdg" name="Produto">
+          <modelElement href="casadocodigo.uml#_8wNEcADhEemgNK0S_iJEdg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_guG2TwDiEemgNK0S_iJEdg" name="id">
+        <modelElement href="casadocodigo.uml#_8v2fJADhEemgNK0S_iJEdg"/>
+        <cardinality xmi:id="_guG2UADiEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+        <type xmi:id="_guG2UQDiEemgNK0S_iJEdg" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_guG2UgDiEemgNK0S_iJEdg" name="gravar">
+      <modelElement href="casadocodigo.uml#_84Z-MADhEemgNK0S_iJEdg"/>
+      <stereotypes xmi:id="_guG2UwDiEemgNK0S_iJEdg" name="StyledElement">
+        <modelElement href="casadocodigo.uml#_84alQADhEemgNK0S_iJEdg"/>
+      </stereotypes>
+      <visibility xmi:id="_guG2VADiEemgNK0S_iJEdg" label="+"/>
+      <cardinality xmi:id="_guG2VQDiEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_guG2VgDiEemgNK0S_iJEdg" name="produto">
+        <modelElement href="casadocodigo.uml#_84Z-MQDhEemgNK0S_iJEdg"/>
+        <cardinality xmi:id="_guG2VwDiEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+        <type xmi:id="_guG2WADiEemgNK0S_iJEdg" name="Produto">
+          <modelElement href="casadocodigo.uml#_8wNEcADhEemgNK0S_iJEdg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_j6LJmQDiEemgNK0S_iJEdg" name="FileSaver" associationsIn="_hNsVMADiEemgNK0S_iJEdg" associationsOut="_j6LJkADiEemgNK0S_iJEdg">
+    <modelElement href="casadocodigo.uml#_8v5icADhEemgNK0S_iJEdg"/>
+    <visualProperties xmi:id="_j6LJmgDiEemgNK0S_iJEdg" position="10.0,699.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_j6LJmwDiEemgNK0S_iJEdg" name="LegacyStyledElement">
+      <modelElement href="casadocodigo.uml#_8v6JgADhEemgNK0S_iJEdg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_j6LJnADiEemgNK0S_iJEdg" name="Annotations">
+      <modelElement href="casadocodigo.uml#_8v6wkADhEemgNK0S_iJEdg"/>
+    </stereotypes>
+    <visibility xmi:id="_j6LJnQDiEemgNK0S_iJEdg" label="+"/>
+    <attributes xmi:id="_j6LJngDiEemgNK0S_iJEdg" name="request">
+      <modelElement href="casadocodigo.uml#_87BNUgDhEemgNK0S_iJEdg"/>
+      <stereotypes xmi:id="_j6LJnwDiEemgNK0S_iJEdg" name="Annotations">
+        <modelElement href="casadocodigo.uml#_87B0YADhEemgNK0S_iJEdg"/>
+      </stereotypes>
+      <visibility xmi:id="_j6LJoADiEemgNK0S_iJEdg" label="-"/>
+      <cardinality xmi:id="_j6LJoQDiEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+      <type xmi:id="_j6LJogDiEemgNK0S_iJEdg" name="HttpServletRequest">
+        <modelElement href="casadocodigo.uml#_84gr4QDhEemgNK0S_iJEdg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_j6LJowDiEemgNK0S_iJEdg" comments="_j6J7cADiEemgNK0S_iJEdg" targetConnectionVisual="_j6J7cQDiEemgNK0S_iJEdg" name="write">
+      <modelElement href="casadocodigo.uml#_86gP8ADhEemgNK0S_iJEdg"/>
+      <stereotypes xmi:id="_j6LJpADiEemgNK0S_iJEdg" name="StyledElement">
+        <modelElement href="casadocodigo.uml#_86gP9ADhEemgNK0S_iJEdg"/>
+      </stereotypes>
+      <visibility xmi:id="_j6LJpQDiEemgNK0S_iJEdg" label="+"/>
+      <cardinality xmi:id="_j6LJpgDiEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_j6LJpwDiEemgNK0S_iJEdg">
+        <modelElement href="casadocodigo.uml#_86gP8wDhEemgNK0S_iJEdg"/>
+        <type xmi:id="_j6LJqADiEemgNK0S_iJEdg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_j6LJqQDiEemgNK0S_iJEdg" name="baseFolder">
+        <modelElement href="casadocodigo.uml#_86gP8QDhEemgNK0S_iJEdg"/>
+        <cardinality xmi:id="_j6LJqgDiEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+        <type xmi:id="_j6LJqwDiEemgNK0S_iJEdg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_j6LJrADiEemgNK0S_iJEdg" name="file">
+        <modelElement href="casadocodigo.uml#_86gP8gDhEemgNK0S_iJEdg"/>
+        <cardinality xmi:id="_j6LJrQDiEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+        <type xmi:id="_j6LJrgDiEemgNK0S_iJEdg" name="MultipartFile">
+          <modelElement href="casadocodigo.uml#_83q-YADhEemgNK0S_iJEdg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_hNs8QADiEemgNK0S_iJEdg" name="ProdutosController" associationsOut="_hNoq0ADiEemgNK0S_iJEdg _hNsVMADiEemgNK0S_iJEdg">
+    <modelElement href="casadocodigo.uml#_8vrgAgDhEemgNK0S_iJEdg"/>
+    <visualProperties xmi:id="_hNs8QQDiEemgNK0S_iJEdg" position="582.0,674.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_hNs8QgDiEemgNK0S_iJEdg" name="LegacyStyledElement">
+      <modelElement href="casadocodigo.uml#_8vsHEADhEemgNK0S_iJEdg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_hNs8QwDiEemgNK0S_iJEdg" name="Annotations">
+      <modelElement href="casadocodigo.uml#_8vw_kADhEemgNK0S_iJEdg"/>
+    </stereotypes>
+    <visibility xmi:id="_hNs8RADiEemgNK0S_iJEdg" label="+"/>
+    <attributes xmi:id="_hNs8RQDiEemgNK0S_iJEdg" name="produtoDao">
+      <modelElement href="casadocodigo.uml#_86-KAADhEemgNK0S_iJEdg"/>
+      <stereotypes xmi:id="_hNs8RgDiEemgNK0S_iJEdg" name="Annotations">
+        <modelElement href="casadocodigo.uml#_86-xEADhEemgNK0S_iJEdg"/>
+      </stereotypes>
+      <visibility xmi:id="_hNs8RwDiEemgNK0S_iJEdg" label="-"/>
+      <cardinality xmi:id="_hNs8SADiEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+      <type xmi:id="_hNs8SQDiEemgNK0S_iJEdg" name="ProdutoDAO">
+        <modelElement href="casadocodigo.uml#_8v1RAADhEemgNK0S_iJEdg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_hNs8SgDiEemgNK0S_iJEdg" name="fileSaver">
+      <modelElement href="casadocodigo.uml#_86-xEgDhEemgNK0S_iJEdg"/>
+      <stereotypes xmi:id="_hNs8SwDiEemgNK0S_iJEdg" name="Annotations">
+        <modelElement href="casadocodigo.uml#_86__MADhEemgNK0S_iJEdg"/>
+      </stereotypes>
+      <visibility xmi:id="_hNs8TADiEemgNK0S_iJEdg" label="-"/>
+      <cardinality xmi:id="_hNs8TQDiEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+      <type xmi:id="_hNs8TgDiEemgNK0S_iJEdg" name="FileSaver">
+        <modelElement href="casadocodigo.uml#_8v5icADhEemgNK0S_iJEdg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_hNs8TwDiEemgNK0S_iJEdg" name="listar">
+      <modelElement href="casadocodigo.uml#_8vtVMADhEemgNK0S_iJEdg"/>
+      <stereotypes xmi:id="_hNs8UADiEemgNK0S_iJEdg" name="Annotations">
+        <modelElement href="casadocodigo.uml#_8vt8QADhEemgNK0S_iJEdg"/>
+      </stereotypes>
+      <visibility xmi:id="_hNs8UQDiEemgNK0S_iJEdg" label="+"/>
+      <cardinality xmi:id="_hNs8UgDiEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_hNs8UwDiEemgNK0S_iJEdg">
+        <modelElement href="casadocodigo.uml#_86dMoADhEemgNK0S_iJEdg"/>
+        <type xmi:id="_hNs8VADiEemgNK0S_iJEdg" name="ModelAndView">
+          <modelElement href="casadocodigo.uml#_82xmgQDhEemgNK0S_iJEdg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_hNs8VQDiEemgNK0S_iJEdg" name="detalhe">
+      <modelElement href="casadocodigo.uml#_8vujUADhEemgNK0S_iJEdg"/>
+      <stereotypes xmi:id="_hNs8VgDiEemgNK0S_iJEdg" name="Annotations">
+        <modelElement href="casadocodigo.uml#_8vwYgQDhEemgNK0S_iJEdg"/>
+      </stereotypes>
+      <visibility xmi:id="_hNs8VwDiEemgNK0S_iJEdg" label="+"/>
+      <cardinality xmi:id="_hNs8WADiEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_hNs8WQDiEemgNK0S_iJEdg">
+        <modelElement href="casadocodigo.uml#_86eawADhEemgNK0S_iJEdg"/>
+        <type xmi:id="_hNs8WgDiEemgNK0S_iJEdg" name="ModelAndView">
+          <modelElement href="casadocodigo.uml#_82xmgQDhEemgNK0S_iJEdg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_hNs8WwDiEemgNK0S_iJEdg" name="id">
+        <modelElement href="casadocodigo.uml#_8vujUQDhEemgNK0S_iJEdg"/>
+        <cardinality xmi:id="_hNs8XADiEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+        <type xmi:id="_hNs8XQDiEemgNK0S_iJEdg" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_hNs8XgDiEemgNK0S_iJEdg" name="form">
+      <modelElement href="casadocodigo.uml#_83_HcADhEemgNK0S_iJEdg"/>
+      <stereotypes xmi:id="_hNs8XwDiEemgNK0S_iJEdg" name="Annotations">
+        <modelElement href="casadocodigo.uml#_83_ugADhEemgNK0S_iJEdg"/>
+      </stereotypes>
+      <visibility xmi:id="_hNs8YADiEemgNK0S_iJEdg" label="+"/>
+      <cardinality xmi:id="_hNs8YQDiEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_hNs8YgDiEemgNK0S_iJEdg">
+        <modelElement href="casadocodigo.uml#_86awYADhEemgNK0S_iJEdg"/>
+        <type xmi:id="_hNs8YwDiEemgNK0S_iJEdg" name="ModelAndView">
+          <modelElement href="casadocodigo.uml#_82xmgQDhEemgNK0S_iJEdg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_hNs8ZADiEemgNK0S_iJEdg" name="produto">
+        <modelElement href="casadocodigo.uml#_83_HcQDhEemgNK0S_iJEdg"/>
+        <cardinality xmi:id="_hNs8ZQDiEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+        <type xmi:id="_hNs8ZgDiEemgNK0S_iJEdg" name="Produto">
+          <modelElement href="casadocodigo.uml#_8wNEcADhEemgNK0S_iJEdg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_hNs8ZwDiEemgNK0S_iJEdg" name="gravar">
+      <modelElement href="casadocodigo.uml#_86bXcADhEemgNK0S_iJEdg"/>
+      <stereotypes xmi:id="_hNs8aADiEemgNK0S_iJEdg" name="Annotations">
+        <modelElement href="casadocodigo.uml#_86clkgDhEemgNK0S_iJEdg"/>
+      </stereotypes>
+      <visibility xmi:id="_hNs8aQDiEemgNK0S_iJEdg" label="+"/>
+      <cardinality xmi:id="_hNs8agDiEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_hNs8awDiEemgNK0S_iJEdg">
+        <modelElement href="casadocodigo.uml#_86b-gQDhEemgNK0S_iJEdg"/>
+        <type xmi:id="_hNs8bADiEemgNK0S_iJEdg" name="ModelAndView">
+          <modelElement href="casadocodigo.uml#_82xmgQDhEemgNK0S_iJEdg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_hNs8bQDiEemgNK0S_iJEdg" name="sumario">
+        <modelElement href="casadocodigo.uml#_86bXcQDhEemgNK0S_iJEdg"/>
+        <cardinality xmi:id="_hNs8bgDiEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+        <type xmi:id="_hNs8bwDiEemgNK0S_iJEdg" name="MultipartFile">
+          <modelElement href="casadocodigo.uml#_83q-YADhEemgNK0S_iJEdg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_hNs8cADiEemgNK0S_iJEdg" name="produto">
+        <modelElement href="casadocodigo.uml#_86bXcgDhEemgNK0S_iJEdg"/>
+        <cardinality xmi:id="_hNs8cQDiEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+        <type xmi:id="_hNs8cgDiEemgNK0S_iJEdg" name="Produto">
+          <modelElement href="casadocodigo.uml#_8wNEcADhEemgNK0S_iJEdg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_hNs8cwDiEemgNK0S_iJEdg" name="result">
+        <modelElement href="casadocodigo.uml#_86bXcwDhEemgNK0S_iJEdg"/>
+        <cardinality xmi:id="_hNs8dADiEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+        <type xmi:id="_hNs8dQDiEemgNK0S_iJEdg" name="BindingResult">
+          <modelElement href="casadocodigo.uml#_83G9sADhEemgNK0S_iJEdg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_hNs8dgDiEemgNK0S_iJEdg" name="redirectAttributes">
+        <modelElement href="casadocodigo.uml#_86b-gADhEemgNK0S_iJEdg"/>
+        <cardinality xmi:id="_hNs8dwDiEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+        <type xmi:id="_hNs8eADiEemgNK0S_iJEdg" name="RedirectAttributes">
+          <modelElement href="casadocodigo.uml#_832kkQDhEemgNK0S_iJEdg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_hNs8eQDiEemgNK0S_iJEdg" name="initBinder">
+      <modelElement href="casadocodigo.uml#_86dMoQDhEemgNK0S_iJEdg"/>
+      <stereotypes xmi:id="_hNs8egDiEemgNK0S_iJEdg" name="Annotations">
+        <modelElement href="casadocodigo.uml#_86dzsADhEemgNK0S_iJEdg"/>
+      </stereotypes>
+      <visibility xmi:id="_hNs8ewDiEemgNK0S_iJEdg" label="+"/>
+      <cardinality xmi:id="_hNs8fADiEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_hNs8fQDiEemgNK0S_iJEdg" name="binder">
+        <modelElement href="casadocodigo.uml#_86dMogDhEemgNK0S_iJEdg"/>
+        <cardinality xmi:id="_hNs8fgDiEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+        <type xmi:id="_hNs8fwDiEemgNK0S_iJEdg" name="WebDataBinder">
+          <modelElement href="casadocodigo.uml#_83Sj4QDhEemgNK0S_iJEdg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="__351MADhEemgNK0S_iJEdg" name="Produto" associationsOut="__3sZ0ADhEemgNK0S_iJEdg _CA9zcADiEemgNK0S_iJEdg">
+    <modelElement href="casadocodigo.uml#_8wNEcADhEemgNK0S_iJEdg"/>
+    <visualProperties xmi:id="__351MQDhEemgNK0S_iJEdg" position="662.0,874.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="__351MgDhEemgNK0S_iJEdg" name="JPA1StyledElement">
+      <modelElement href="casadocodigo.uml#_8wNrgADhEemgNK0S_iJEdg"/>
+    </stereotypes>
+    <visibility xmi:id="__351MwDhEemgNK0S_iJEdg" label="+"/>
+    <attributes xmi:id="__351NADhEemgNK0S_iJEdg" name="id">
+      <modelElement href="casadocodigo.uml#_87FewADhEemgNK0S_iJEdg"/>
+      <stereotypes xmi:id="__351NQDhEemgNK0S_iJEdg" name="PrimaryKey">
+        <modelElement href="casadocodigo.uml#_87FewQDhEemgNK0S_iJEdg"/>
+      </stereotypes>
+      <stereotypes xmi:id="__351NgDhEemgNK0S_iJEdg" name="GeneratedValueMapping">
+        <modelElement href="casadocodigo.uml#_87GF0ADhEemgNK0S_iJEdg"/>
+      </stereotypes>
+      <visibility xmi:id="__351NwDhEemgNK0S_iJEdg" label="+"/>
+      <cardinality xmi:id="__351OADhEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+      <type xmi:id="__351OQDhEemgNK0S_iJEdg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="__351OgDhEemgNK0S_iJEdg" name="titulo">
+      <modelElement href="casadocodigo.uml#_87Gs4ADhEemgNK0S_iJEdg"/>
+      <stereotypes xmi:id="__351OwDhEemgNK0S_iJEdg" name="StyledElement">
+        <modelElement href="casadocodigo.uml#_87HT8ADhEemgNK0S_iJEdg"/>
+      </stereotypes>
+      <visibility xmi:id="__351PADhEemgNK0S_iJEdg" label="+"/>
+      <cardinality xmi:id="__351PQDhEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+      <type xmi:id="__351PgDhEemgNK0S_iJEdg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="__351PwDhEemgNK0S_iJEdg" name="descricao">
+      <modelElement href="casadocodigo.uml#_87HT8QDhEemgNK0S_iJEdg"/>
+      <stereotypes xmi:id="__351QADhEemgNK0S_iJEdg" name="StyledElement">
+        <modelElement href="casadocodigo.uml#_87HT8gDhEemgNK0S_iJEdg"/>
+      </stereotypes>
+      <visibility xmi:id="__351QQDhEemgNK0S_iJEdg" label="+"/>
+      <cardinality xmi:id="__351QgDhEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+      <type xmi:id="__351QwDhEemgNK0S_iJEdg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="__351RADhEemgNK0S_iJEdg" name="paginas">
+      <modelElement href="casadocodigo.uml#_87HT8wDhEemgNK0S_iJEdg"/>
+      <stereotypes xmi:id="__351RQDhEemgNK0S_iJEdg" name="StyledElement">
+        <modelElement href="casadocodigo.uml#_87H7AADhEemgNK0S_iJEdg"/>
+      </stereotypes>
+      <visibility xmi:id="__351RgDhEemgNK0S_iJEdg" label="+"/>
+      <cardinality xmi:id="__351RwDhEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+      <type xmi:id="__351SADhEemgNK0S_iJEdg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="__351SQDhEemgNK0S_iJEdg" name="precos">
+      <modelElement href="casadocodigo.uml#_87H7AQDhEemgNK0S_iJEdg"/>
+      <stereotypes xmi:id="__351SgDhEemgNK0S_iJEdg" name="LegacyStyledElement">
+        <modelElement href="casadocodigo.uml#_87H7AgDhEemgNK0S_iJEdg"/>
+      </stereotypes>
+      <stereotypes xmi:id="__351SwDhEemgNK0S_iJEdg" name="Annotations">
+        <modelElement href="casadocodigo.uml#_87JwMADhEemgNK0S_iJEdg"/>
+      </stereotypes>
+      <visibility xmi:id="__351TADhEemgNK0S_iJEdg" label="+"/>
+      <cardinality xmi:id="__351TQDhEemgNK0S_iJEdg" label="1..*" max="-1" min="1"/>
+      <type xmi:id="__351TgDhEemgNK0S_iJEdg" name="Preco">
+        <modelElement href="casadocodigo.uml#_8wCsYADhEemgNK0S_iJEdg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="__351TwDhEemgNK0S_iJEdg" name="dataLancamento">
+      <modelElement href="casadocodigo.uml#_87P20QDhEemgNK0S_iJEdg"/>
+      <stereotypes xmi:id="__351UADhEemgNK0S_iJEdg" name="LegacyStyledElement">
+        <modelElement href="casadocodigo.uml#_87P20gDhEemgNK0S_iJEdg"/>
+      </stereotypes>
+      <stereotypes xmi:id="__351UQDhEemgNK0S_iJEdg" name="Annotations">
+        <modelElement href="casadocodigo.uml#_87RE8QDhEemgNK0S_iJEdg"/>
+      </stereotypes>
+      <visibility xmi:id="__351UgDhEemgNK0S_iJEdg" label="+"/>
+      <cardinality xmi:id="__351UwDhEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+      <type xmi:id="__351VADhEemgNK0S_iJEdg" name="Calendar">
+        <modelElement href="casadocodigo.uml#_85KMIADhEemgNK0S_iJEdg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="__351VQDhEemgNK0S_iJEdg" name="sumarioPath">
+      <modelElement href="casadocodigo.uml#_87RE8wDhEemgNK0S_iJEdg"/>
+      <stereotypes xmi:id="__351VgDhEemgNK0S_iJEdg" name="StyledElement">
+        <modelElement href="casadocodigo.uml#_87RsAADhEemgNK0S_iJEdg"/>
+      </stereotypes>
+      <visibility xmi:id="__351VwDhEemgNK0S_iJEdg" label="+"/>
+      <cardinality xmi:id="__351WADhEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+      <type xmi:id="__351WQDhEemgNK0S_iJEdg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="__351WgDhEemgNK0S_iJEdg" name="toString">
+      <modelElement href="casadocodigo.uml#_8wPgsADhEemgNK0S_iJEdg"/>
+      <visualProperties xmi:id="_v12KAADlEemgNK0S_iJEdg" visible="false"/>
+      <stereotypes xmi:id="__351WwDhEemgNK0S_iJEdg" name="LegacyStyledElement">
+        <modelElement href="casadocodigo.uml#_8wQHwADhEemgNK0S_iJEdg"/>
+      </stereotypes>
+      <stereotypes xmi:id="__351XADhEemgNK0S_iJEdg" name="Annotations">
+        <modelElement href="casadocodigo.uml#_8wQHwQDhEemgNK0S_iJEdg"/>
+      </stereotypes>
+      <visibility xmi:id="__351XQDhEemgNK0S_iJEdg" label="+"/>
+      <cardinality xmi:id="__351XgDhEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__351XwDhEemgNK0S_iJEdg">
+        <modelElement href="casadocodigo.uml#_8wPgsQDhEemgNK0S_iJEdg"/>
+        <type xmi:id="__351YADhEemgNK0S_iJEdg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="__351YQDhEemgNK0S_iJEdg" name="hashCode">
+      <modelElement href="casadocodigo.uml#_8wQHwwDhEemgNK0S_iJEdg"/>
+      <visualProperties xmi:id="_vNLngADlEemgNK0S_iJEdg" visible="false"/>
+      <stereotypes xmi:id="__351YgDhEemgNK0S_iJEdg" name="LegacyStyledElement">
+        <modelElement href="casadocodigo.uml#_8wQu0ADhEemgNK0S_iJEdg"/>
+      </stereotypes>
+      <stereotypes xmi:id="__351YwDhEemgNK0S_iJEdg" name="Annotations">
+        <modelElement href="casadocodigo.uml#_8wQu0QDhEemgNK0S_iJEdg"/>
+      </stereotypes>
+      <visibility xmi:id="__351ZADhEemgNK0S_iJEdg" label="+"/>
+      <cardinality xmi:id="__351ZQDhEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__351ZgDhEemgNK0S_iJEdg">
+        <modelElement href="casadocodigo.uml#_8wQHxADhEemgNK0S_iJEdg"/>
+        <type xmi:id="__351ZwDhEemgNK0S_iJEdg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="__351aADhEemgNK0S_iJEdg" name="equals">
+      <modelElement href="casadocodigo.uml#_86sdMADhEemgNK0S_iJEdg"/>
+      <visualProperties xmi:id="_wcvK4ADlEemgNK0S_iJEdg" visible="false"/>
+      <stereotypes xmi:id="__351aQDhEemgNK0S_iJEdg" name="LegacyStyledElement">
+        <modelElement href="casadocodigo.uml#_86tEQADhEemgNK0S_iJEdg"/>
+      </stereotypes>
+      <stereotypes xmi:id="__351agDhEemgNK0S_iJEdg" name="Annotations">
+        <modelElement href="casadocodigo.uml#_86tEQQDhEemgNK0S_iJEdg"/>
+      </stereotypes>
+      <visibility xmi:id="__351awDhEemgNK0S_iJEdg" label="+"/>
+      <cardinality xmi:id="__351bADhEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__351bQDhEemgNK0S_iJEdg">
+        <modelElement href="casadocodigo.uml#_86sdMgDhEemgNK0S_iJEdg"/>
+        <type xmi:id="__351bgDhEemgNK0S_iJEdg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="__351bwDhEemgNK0S_iJEdg" name="obj">
+        <modelElement href="casadocodigo.uml#_86sdMQDhEemgNK0S_iJEdg"/>
+        <cardinality xmi:id="__351cADhEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+        <type xmi:id="__351cQDhEemgNK0S_iJEdg" name="Object">
+          <modelElement href="casadocodigo.uml#_86heEADhEemgNK0S_iJEdg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_CBBd1ADiEemgNK0S_iJEdg" name="CarrinhoItem" associationsIn="_CA9zcADiEemgNK0S_iJEdg _CA-agwDiEemgNK0S_iJEdg">
+    <modelElement href="casadocodigo.uml#_8v-a8ADhEemgNK0S_iJEdg"/>
+    <visualProperties xmi:id="_CBBd1QDiEemgNK0S_iJEdg" position="18.0,936.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_CBBd1gDiEemgNK0S_iJEdg" label="+"/>
+    <attributes xmi:id="_CBBd1wDiEemgNK0S_iJEdg" name="produto">
+      <modelElement href="casadocodigo.uml#_87DpkADhEemgNK0S_iJEdg"/>
+      <visibility xmi:id="_CBBd2ADiEemgNK0S_iJEdg" label="+"/>
+      <cardinality xmi:id="_CBBd2QDiEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+      <type xmi:id="_CBBd2gDiEemgNK0S_iJEdg" name="Produto">
+        <modelElement href="casadocodigo.uml#_8wNEcADhEemgNK0S_iJEdg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_CBBd2wDiEemgNK0S_iJEdg" name="tipoPreco">
+      <modelElement href="casadocodigo.uml#_87EQoADhEemgNK0S_iJEdg"/>
+      <visibility xmi:id="_CBBd3ADiEemgNK0S_iJEdg" label="+"/>
+      <cardinality xmi:id="_CBBd3QDiEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+      <type xmi:id="_CBBd3gDiEemgNK0S_iJEdg" name="TipoPreco">
+        <modelElement href="casadocodigo.uml#_8wXcgADhEemgNK0S_iJEdg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_CBBd3wDiEemgNK0S_iJEdg" name="hashCode">
+      <modelElement href="casadocodigo.uml#_8v_pEADhEemgNK0S_iJEdg"/>
+      <visualProperties xmi:id="_0MahoADlEemgNK0S_iJEdg" visible="false"/>
+      <stereotypes xmi:id="_CBBd4ADiEemgNK0S_iJEdg" name="LegacyStyledElement">
+        <modelElement href="casadocodigo.uml#_8wAQIQDhEemgNK0S_iJEdg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_CBBd4QDiEemgNK0S_iJEdg" name="Annotations">
+        <modelElement href="casadocodigo.uml#_8wAQIgDhEemgNK0S_iJEdg"/>
+      </stereotypes>
+      <visibility xmi:id="_CBBd4gDiEemgNK0S_iJEdg" label="+"/>
+      <cardinality xmi:id="_CBBd4wDiEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_CBBd5ADiEemgNK0S_iJEdg">
+        <modelElement href="casadocodigo.uml#_8wAQIADhEemgNK0S_iJEdg"/>
+        <type xmi:id="_CBBd5QDiEemgNK0S_iJEdg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_CBBd5gDiEemgNK0S_iJEdg" name="CarrinhoItem">
+      <modelElement href="casadocodigo.uml#_848JsADhEemgNK0S_iJEdg"/>
+      <keywords xmi:id="_CBBd5wDiEemgNK0S_iJEdg" keyword="create"/>
+      <visibility xmi:id="_CBBd6ADiEemgNK0S_iJEdg" label="+"/>
+      <cardinality xmi:id="_CBBd6QDiEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_CBBd6gDiEemgNK0S_iJEdg">
+        <modelElement href="casadocodigo.uml#_848JtQDhEemgNK0S_iJEdg"/>
+        <type xmi:id="_CBBd6wDiEemgNK0S_iJEdg" name="CarrinhoItem">
+          <modelElement href="casadocodigo.uml#_8v-a8ADhEemgNK0S_iJEdg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_CBBd7ADiEemgNK0S_iJEdg" name="produto">
+        <modelElement href="casadocodigo.uml#_848JsQDhEemgNK0S_iJEdg"/>
+        <cardinality xmi:id="_CBBd7QDiEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+        <type xmi:id="_CBBd7gDiEemgNK0S_iJEdg" name="Produto">
+          <modelElement href="casadocodigo.uml#_8wNEcADhEemgNK0S_iJEdg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_CBBd7wDiEemgNK0S_iJEdg" name="tipoPreco">
+        <modelElement href="casadocodigo.uml#_848JsgDhEemgNK0S_iJEdg"/>
+        <cardinality xmi:id="_CBBd8ADiEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+        <type xmi:id="_CBBd8QDiEemgNK0S_iJEdg" name="TipoPreco">
+          <modelElement href="casadocodigo.uml#_8wXcgADhEemgNK0S_iJEdg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_CBBd8gDiEemgNK0S_iJEdg" name="equals">
+      <modelElement href="casadocodigo.uml#_86nksQDhEemgNK0S_iJEdg"/>
+      <visualProperties xmi:id="_0_tm0ADlEemgNK0S_iJEdg" visible="false"/>
+      <stereotypes xmi:id="_CBBd8wDiEemgNK0S_iJEdg" name="LegacyStyledElement">
+        <modelElement href="casadocodigo.uml#_86oy0ADhEemgNK0S_iJEdg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_CBBd9ADiEemgNK0S_iJEdg" name="Annotations">
+        <modelElement href="casadocodigo.uml#_86oy0QDhEemgNK0S_iJEdg"/>
+      </stereotypes>
+      <visibility xmi:id="_CBBd9QDiEemgNK0S_iJEdg" label="+"/>
+      <cardinality xmi:id="_CBBd9gDiEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_CBBd9wDiEemgNK0S_iJEdg">
+        <modelElement href="casadocodigo.uml#_86oLwADhEemgNK0S_iJEdg"/>
+        <type xmi:id="_CBBd-ADiEemgNK0S_iJEdg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_CBBd-QDiEemgNK0S_iJEdg" name="obj">
+        <modelElement href="casadocodigo.uml#_86nksgDhEemgNK0S_iJEdg"/>
+        <cardinality xmi:id="_CBBd-gDiEemgNK0S_iJEdg" label="1" max="1" min="1"/>
+        <type xmi:id="_CBBd-wDiEemgNK0S_iJEdg" name="Object">
+          <modelElement href="casadocodigo.uml#_86heEADhEemgNK0S_iJEdg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
