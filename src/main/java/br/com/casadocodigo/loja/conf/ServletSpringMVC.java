@@ -19,17 +19,17 @@ import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatche
  */
 public class ServletSpringMVC extends AbstractAnnotationConfigDispatcherServletInitializer {
 
-	@Override
-	public void onStartup(ServletContext servletContext) throws ServletException {
-		super.onStartup(servletContext);
-		servletContext.addListener(RequestContextListener.class);
-		servletContext.setInitParameter("spring.profiles.active", "dev");
-	}
+//	@Override
+//	public void onStartup(ServletContext servletContext) throws ServletException {
+//		super.onStartup(servletContext);
+//		servletContext.addListener(RequestContextListener.class);
+//		servletContext.setInitParameter("spring.profiles.active", "dev");
+//	}
 	
 	@Override
 	protected Class<?>[] getRootConfigClasses() {
 		// TODO Auto-generated method stub
-		return new Class[] { SecurityConfiguration.class, AppWebConfiguration.class, JPAConfiguration.class  };
+		return new Class[] { SecurityConfiguration.class, AppWebConfiguration.class, JPAConfiguration.class, JPAProductionConfiguration.class  };
 	}
 
 	@Override

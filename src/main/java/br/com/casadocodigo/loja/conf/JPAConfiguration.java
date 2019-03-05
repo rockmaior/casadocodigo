@@ -35,7 +35,8 @@ public class JPAConfiguration {
 		return factoryBean;
 
 	}
-
+	@Bean
+	@Profile("dev")
 	private Properties additionalProperties() {
 		
 		Properties properties = new Properties();
